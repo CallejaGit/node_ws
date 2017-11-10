@@ -11,7 +11,7 @@ replace` <executable>` for whatever name you choose for the executable and `<cor
 
 Build our workspace using catkin_make command in the workspace directory
 
-`cd your_workspace`  
+`cd art_nodes`  
 `catkin_make`
 
 To start the node, 
