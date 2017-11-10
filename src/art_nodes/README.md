@@ -1,6 +1,6 @@
 # Compiling
 
-The node you created should be in utra_nodes/src.
+The node you created should be in art_nodes/src.
 
 The file you created for the node has to be declared as an executable.
 
@@ -15,5 +15,5 @@ Build our workspace using catkin_make command in the workspace directory
 `catkin_make`
 
 To start the node, 
-`rosrun utra_nodes <executable>`   
+`rosrun art_nodes <executable>`   
 Where executable is the name you chose for the executable
