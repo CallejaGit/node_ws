@@ -29,7 +29,7 @@ roscpp and std_msgs are dependencies added to CMakeList.txt and package.xml
 
 #### compiling the node
 
-After you created a node\_file.cpp in your\_package\_name, declare our node as a executable. In your\_workspace/src/your\_package\_name Add:
+After you created a node\_file.cpp in your\_package\_name, declare our node as a executable. In your\_workspace/src/your\_package\_name, add these linesin your CMakeList.txt:
 
 `add_executable(desired_name src/node_file.cpp)`  
 `target_link_libraries(desired_name ${catkin_LIBRARIES})`  
