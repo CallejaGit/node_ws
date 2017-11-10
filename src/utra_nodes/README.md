@@ -1,5 +1,7 @@
 # Compiling
 
+The node you created should be in utra_nodes/src.
+
 The file you created for the node has to be declared as an executable.
 
 `add_executable(<executable> src/<corresponding node>.cpp)`  
