@@ -149,6 +149,9 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
+add_executable(imu src/imu.cpp)
+target_link_libraries(imu ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############
