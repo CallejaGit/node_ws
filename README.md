@@ -1,6 +1,6 @@
-# utra_master_node
+#node_ws
 
-This repo contains catkin workspace and the packages located in utra\_master\_node\src
+This repo contains catkin workspace and the packages
 
 
 ## For Future Reference
