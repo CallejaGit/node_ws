@@ -7,7 +7,7 @@ The file you created for the node has to be declared as an executable.
 `add_executable(<executable> src/<corresponding node>.cpp)`  
 `target_link_libraries(<executable> ${catkin_LIBRARIES})`
 
-replace <executable> for whatever name you choose for the executable and <corresponding node> with the node you created.
+replace` <executable>` for whatever name you choose for the executable and `<corresponding node>` with the node you created.
 
 Build our workspace using catkin_make command in the workspace directory
 
