@@ -1,2 +1,2 @@
-utra_nodes
+art_nodes
 -DCATKIN_DEVEL_PREFIX=/home/patrick/Documents/UTRA/node_ws/devel -DCMAKE_INSTALL_PREFIX=/home/patrick/Documents/UTRA/node_ws/install -G Unix Makefiles

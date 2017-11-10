@@ -117,7 +117,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/patrick/Documents/UTRA/node_ws/build/gtest/cmake_install.cmake")
-  include("/home/patrick/Documents/UTRA/node_ws/build/utra_nodes/cmake_install.cmake")
+  include("/home/patrick/Documents/UTRA/node_ws/build/art_nodes/cmake_install.cmake")
 
 endif()
 

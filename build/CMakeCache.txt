@@ -246,6 +246,12 @@ _CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//Value Computed by CMake
+art_nodes_BINARY_DIR:STATIC=/home/patrick/Documents/UTRA/node_ws/build/art_nodes
+
+//Value Computed by CMake
+art_nodes_SOURCE_DIR:STATIC=/home/patrick/Documents/UTRA/node_ws/src/art_nodes
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 

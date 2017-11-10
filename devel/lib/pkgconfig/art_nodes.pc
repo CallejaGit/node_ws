@@ -1,0 +1,8 @@
+prefix=/home/patrick/Documents/UTRA/node_ws/devel
+
+Name: art_nodes
+Description: Description of art_nodes
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/patrick/Documents/UTRA/node_ws/devel/lib 
+Requires: 

@@ -303,552 +303,552 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory utra_nodes
+# Directory level rules for directory art_nodes
 
 # Convenience name for "all" pass in the directory.
-utra_nodes/all: utra_nodes/CMakeFiles/imu.dir/all
+art_nodes/all: art_nodes/CMakeFiles/imu.dir/all
 
-.PHONY : utra_nodes/all
+.PHONY : art_nodes/all
 
 # Convenience name for "clean" pass in the directory.
-utra_nodes/clean: utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-utra_nodes/clean: utra_nodes/CMakeFiles/imu.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+art_nodes/clean: art_nodes/CMakeFiles/imu.dir/clean
 
-.PHONY : utra_nodes/clean
+.PHONY : art_nodes/clean
 
 # Convenience name for "preinstall" pass in the directory.
-utra_nodes/preinstall:
+art_nodes/preinstall:
 
-.PHONY : utra_nodes/preinstall
+.PHONY : art_nodes/preinstall
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir
+# Target rules for target art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/build
+art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/all
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_py: utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+std_msgs_generate_messages_py: art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 .PHONY : std_msgs_generate_messages_py
 
 # clean rule for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+clean: art_nodes/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir
+# Target rules for target art_nodes/CMakeFiles/roscpp_generate_messages_py.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/build
+art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/all
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_py: utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/rule
+roscpp_generate_messages_py: art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 .PHONY : roscpp_generate_messages_py
 
 # clean rule for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/clean
+art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/roscpp_generate_messages_py.dir/clean
+clean: art_nodes/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
+# Target rules for target art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_eus: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+rosgraph_msgs_generate_messages_eus: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_eus
 
 # clean rule for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+clean: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
+# Target rules for target art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+rosgraph_msgs_generate_messages_nodejs: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_nodejs
 
 # clean rule for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+clean: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir
+# Target rules for target art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_cpp: utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+roscpp_generate_messages_cpp: art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 .PHONY : roscpp_generate_messages_cpp
 
 # clean rule for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+clean: art_nodes/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+# Target rules for target art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+rosgraph_msgs_generate_messages_cpp: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_cpp
 
 # clean rule for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+clean: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir
+# Target rules for target art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_cpp: utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+std_msgs_generate_messages_cpp: art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : std_msgs_generate_messages_cpp
 
 # clean rule for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+clean: art_nodes/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir
+# Target rules for target art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/build
+art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/all
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_eus: utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+roscpp_generate_messages_eus: art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 .PHONY : roscpp_generate_messages_eus
 
 # clean rule for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+clean: art_nodes/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+# Target rules for target art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_py: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+rosgraph_msgs_generate_messages_py: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_py
 
 # clean rule for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+clean: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+# Target rules for target art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+rosgraph_msgs_generate_messages_lisp: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_lisp
 
 # clean rule for target.
-utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+clean: art_nodes/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir
+# Target rules for target art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_nodejs: utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+roscpp_generate_messages_nodejs: art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 .PHONY : roscpp_generate_messages_nodejs
 
 # clean rule for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+clean: art_nodes/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+# Target rules for target art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_nodejs: utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+std_msgs_generate_messages_nodejs: art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : std_msgs_generate_messages_nodejs
 
 # clean rule for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+clean: art_nodes/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir
+# Target rules for target art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_lisp: utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+roscpp_generate_messages_lisp: art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 .PHONY : roscpp_generate_messages_lisp
 
 # clean rule for target.
-utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+clean: art_nodes/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir
+# Target rules for target art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_eus: utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+std_msgs_generate_messages_eus: art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 .PHONY : std_msgs_generate_messages_eus
 
 # clean rule for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+clean: art_nodes/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir
+# Target rules for target art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_lisp: utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+std_msgs_generate_messages_lisp: art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : std_msgs_generate_messages_lisp
 
 # clean rule for target.
-utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+clean: art_nodes/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target utra_nodes/CMakeFiles/imu.dir
+# Target rules for target art_nodes/CMakeFiles/imu.dir
 
 # All Build rule for target.
-utra_nodes/CMakeFiles/imu.dir/all:
-	$(MAKE) -f utra_nodes/CMakeFiles/imu.dir/build.make utra_nodes/CMakeFiles/imu.dir/depend
-	$(MAKE) -f utra_nodes/CMakeFiles/imu.dir/build.make utra_nodes/CMakeFiles/imu.dir/build
+art_nodes/CMakeFiles/imu.dir/all:
+	$(MAKE) -f art_nodes/CMakeFiles/imu.dir/build.make art_nodes/CMakeFiles/imu.dir/depend
+	$(MAKE) -f art_nodes/CMakeFiles/imu.dir/build.make art_nodes/CMakeFiles/imu.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/Documents/UTRA/node_ws/build/CMakeFiles --progress-num=5,6 "Built target imu"
-.PHONY : utra_nodes/CMakeFiles/imu.dir/all
+.PHONY : art_nodes/CMakeFiles/imu.dir/all
 
 # Include target in all.
-all: utra_nodes/CMakeFiles/imu.dir/all
+all: art_nodes/CMakeFiles/imu.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-utra_nodes/CMakeFiles/imu.dir/rule: cmake_check_build_system
+art_nodes/CMakeFiles/imu.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 utra_nodes/CMakeFiles/imu.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 art_nodes/CMakeFiles/imu.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/Documents/UTRA/node_ws/build/CMakeFiles 0
-.PHONY : utra_nodes/CMakeFiles/imu.dir/rule
+.PHONY : art_nodes/CMakeFiles/imu.dir/rule
 
 # Convenience name for target.
-imu: utra_nodes/CMakeFiles/imu.dir/rule
+imu: art_nodes/CMakeFiles/imu.dir/rule
 
 .PHONY : imu
 
 # clean rule for target.
-utra_nodes/CMakeFiles/imu.dir/clean:
-	$(MAKE) -f utra_nodes/CMakeFiles/imu.dir/build.make utra_nodes/CMakeFiles/imu.dir/clean
-.PHONY : utra_nodes/CMakeFiles/imu.dir/clean
+art_nodes/CMakeFiles/imu.dir/clean:
+	$(MAKE) -f art_nodes/CMakeFiles/imu.dir/build.make art_nodes/CMakeFiles/imu.dir/clean
+.PHONY : art_nodes/CMakeFiles/imu.dir/clean
 
 # clean rule for target.
-clean: utra_nodes/CMakeFiles/imu.dir/clean
+clean: art_nodes/CMakeFiles/imu.dir/clean
 
 .PHONY : clean
 
