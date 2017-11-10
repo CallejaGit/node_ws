@@ -13,5 +13,5 @@ Build our workspace using catkin_make command in the workspace directory
 `catkin_make`
 
 To start the node, 
-`rosrun utra_node <executable>`   
+`rosrun utra_nodes <executable>`   
 Where executable is the name you chose for the executable
