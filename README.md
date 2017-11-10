@@ -2,7 +2,7 @@
 
 This repo contains catkin workspace and the packages for ART
 
-Look at start by looking at src folder
+Start by looking at src folder
 
 ## For Future Reference
 
