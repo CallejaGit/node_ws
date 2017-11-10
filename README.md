@@ -1,7 +1,8 @@
 # node_ws
 
-This repo contains catkin workspace and the packages
+This repo contains catkin workspace and the packages for ART
 
+Look at start by looking at src folder
 
 ## For Future Reference
 
