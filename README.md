@@ -10,11 +10,11 @@ Start by looking at src folder
 
 Creating a workspace directory
 
-`mkdir/your_workspace`
+`mkdir your_workspace`
 
 The next code contains all the src code for the packages
 
-`mkdir/your_workspace/src`
+`mkdir your_workspace/src`
 
 Initialize workspace
 
