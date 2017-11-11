@@ -1,8 +1,10 @@
 # node_ws
 
-This repo contains catkin workspace and the packages for ART
+This repo contains catkin workspace containing the packages for ART
 
-Start by looking at src folder
+There is one package for all nodes called art_nodes in located node_ws/src/art_nodes
+
+All cpp files should be saved in node_ws/src/art_nodes/src. It needs to be build, follow the ReadMe at node_ws/src/art_nodes
 
 ## For Future Reference
 
