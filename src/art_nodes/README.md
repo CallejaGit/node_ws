@@ -14,6 +14,8 @@ Build our workspace using catkin_make command in the workspace directory
 `cd art_nodes`  
 `catkin_make`
 
+**Note**: any changes in your cpp files needs to build again! run `catkin_make` on /art_nodes
+
 To start the node, 
 `rosrun art_nodes <executable>`   
 Where executable is the name you chose for the executable
