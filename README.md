@@ -1,3 +1,10 @@
+# Milestone #1
+Completion of Nodes for Milestone 1 with testing:
+  1) Carl & Farwa - Master Node
+  2) Patrick - IMU Node 
+  3) Krystal & Brian - Control Node
+  4) Gallop - Arduino Node (COMPLETED)
+
 # node_ws
 
 This repo contains catkin workspace containing the packages for ART
