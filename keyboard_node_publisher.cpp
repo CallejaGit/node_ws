@@ -63,7 +63,7 @@ int main(int argc, char **argv)
  
   ros::init(argc, argv, "keyboard_node_publisher");
   ros::NodeHandle n;
-  ros::Publisher keyboard_control_pub = n.advertise<std_msgs::Twist>("keyboard_control", 1000); // publish Twist messages to the topic 
+  ros::Publisher keyboard_control_pub = n.advertise<geometry_msgs::Twist>("keyboard_control", 1000); // publish geometry_msgs::Twist messages to the topic 
   ros::Rate loop_rate(10);
 
   int c, x,y,z,theta;
