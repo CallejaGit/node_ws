@@ -13,7 +13,7 @@ void chatterCallback(const geometry_msgs::Twist::ConstPtr& twist)
 
 int main(int argc, char **argv)
 {
-  ros::init(argc, argv, "subscriber");
+  ros::init(argc, argv, "keyboard_node_subscriber");
   ros::NodeHandle n;
   ros::Subscriber sub = n.subscribe("keyboard_control", 1000, chatterCallback);
   ros::spin();
