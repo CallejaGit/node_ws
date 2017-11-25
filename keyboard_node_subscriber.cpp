@@ -1,19 +1,12 @@
 #include "ros/ros.h"
 #include "std_msgs/String.h"
 
-void chatterCallback(const std_msgs::String::ConstPtr& msg)
+void chatterCallback(const geometry_msgs::Twist::ConstPtr& twist)
 {
-  // ROS_INFO("I heard: [%s]", msg->data.c_str());
-  ROS_INFO("%s", msg->data.c_str() );
-
-/*
-  if(msg->data.c_str() == "stop"){
-    ROS_INFO("%s", "stop the car");
-  }
-  else if(msg->data.c_str() == "W"){
-    ROS_INFO("%s", "move forward");
-  }
-*/
+  ROS_INFO("%d", twist.linear.x );
+  ROS_INFO("%d", twist.linear.y );
+  ROS_INFO("%d", twist.linear.z );
+  ROS_INFO("%d", twist.linear.theta );
 
 }
 
