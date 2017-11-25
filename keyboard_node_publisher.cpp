@@ -67,7 +67,7 @@ int main(int argc, char **argv)
   ros::Rate loop_rate(10);
 
   int c, x,y,z,theta;
-  //std::Twist twist
+  geometry_msgs::Twist twist;
   
    double speed = 1;
    double turn = 0.5;
@@ -101,7 +101,7 @@ int main(int argc, char **argv)
 			}
 		}
 				
-			auto twist = Twist()	//instantiate the message structure Twist //essentially twist is our msg
+			twist = Twist()	//instantiate the message structure Twist //essentially twist is our msg
 			
 			
 			//assign the x,y,z to the the twist members 
@@ -114,9 +114,13 @@ int main(int argc, char **argv)
 			twist.angular.y = 0; 
 			twist.angular.z = theta*turn;
 			keyboard_control_pub.publish(twist);
+		
+			ros::spinOnce();
+			loop_rate.sleep();
 				
 				
 	}
+	return 0;
 	
 }
    
