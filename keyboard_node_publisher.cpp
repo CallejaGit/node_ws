@@ -1,3 +1,7 @@
+/* This code is supposed to control the direction of the robot, not the speed. The speed and turn are held constant.
+Certain key presses are assosciated with certain directional outputs. Please note that this code most likely will not compile since it 
+has not been tested yet. Apologies for that.*/
+
 /*
 Moving around:
    u    i    o
@@ -53,9 +57,14 @@ int getch()
 //create a hash table of chars and tuples of the possible key presses that can be made
 //the tuples store the (x,y,z,theta) values that the key represents
 std::unordered_map <char, std::tuple> keys = {
-        { 'u', std::make_tuple(1,0,0,1) },
-        { 'i', std::make_tuple(1,0,0,0) }, { 'o', std::make_tuple(1,0,0,-1) }, { 'j', std::make_tuple(0,0,0,1) },
-        { 'l', std::make_tuple(0,0,0,-1)}, { 'm', std::make_tuple(-1,0,0,-1) }, { ',', std::make_tuple(-1,0,0,0) }, { '.', std::make_tuple(-1,0,0,1)}
+	{ 'i', std::make_tuple(1,0,0,0) }, //go up
+        { 'U', std::make_tuple(1,1,0,0) }, //go up right
+	{ 'M', std::make_tuple(-1,1,0,0) }, //go up left
+ 	{ ',', std::make_tuple(-1,0,0,0) }, //go down
+	{ 'O', std::make_tuple(1,-1,0,0) }, //go down right
+	{ '>', std::make_tuple(-1,-1,0,0)} //go down left
+	{'j', std::make_tuple(0,0,0,1) }, //turn clockwise
+	{'l', std::make_tuple(0,0,0,-1) }, //turn counterclockwise
 };
 
 int main(int argc, char **argv)
