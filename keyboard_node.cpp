@@ -53,11 +53,9 @@ int main(int argc, char **argv)
   
   //int speed = 1;
 	
-	double speed;
-	double turn;
-  
-	speed = rospy.get_param("~speed", 0.5)
-	turn = rospy.get_param("~turn", 1.0)
+	double speed = 1;
+	double turn = 0.5;
+ 
 
 	  
 	while (1))
