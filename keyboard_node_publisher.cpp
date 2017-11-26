@@ -36,6 +36,7 @@ Moving around:
 #include "geometry_msgs/Twist.msg" //for Twist message
 #include <sstream>
 #include <termios.h> //for terminal I/O interfaces
+#include <iterator>
    
    
 //get char from keyboard input
