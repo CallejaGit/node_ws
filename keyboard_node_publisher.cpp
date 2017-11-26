@@ -111,7 +111,7 @@ int main(int argc, char **argv)
 			}
 		}
 				
-			twist = Twist()	//instantiate the message structure Twist //essentially twist is our msg
+			twist = Twist();	//instantiate the message structure Twist //essentially twist is our msg
 			
 			
 			//assign the x,y,z to the the twist members 
